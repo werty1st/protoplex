@@ -67,3 +67,8 @@ on the GitHub repository if you want a protocol to be supported. Please include
 steps to accurately reproduce your client setup.
 
 Alternatively, you may submit a pull request.
+
+
+## Build
+
+GOOS=freebsd GOARCH=amd64 go build -o protoplex.exe protoplex.go
